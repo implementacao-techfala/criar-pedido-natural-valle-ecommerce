@@ -1,0 +1,19 @@
+services:
+  checkoutbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.checkoutbot.rule=Host(`nvallebot.sanjaworks.com.br`)"
+        - "traefik.http.routers.checkoutbot.entrypoints=websecure"
+        - "traefik.http.routers.checkoutbot.tls.certresolver=letsencryptresolver"
+        - "traefik.http.services.checkoutbot.loadbalancer.server.port=8000"
+    networks:
+      - minha_rede
+
+networks:
+  minha_rede:
+    external: true
+    name: minha_rede
