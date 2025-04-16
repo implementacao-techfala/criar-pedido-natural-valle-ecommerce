@@ -60,7 +60,7 @@ async def process_request(data: Payload):
     async with async_playwright() as p:
         logger.info("🟢 Iniciando processo para instância: %s", INSTANCE_NAME)
 
-        browser = await p.chromium.launch(headless=False, slow_mo=300)
+        browser = await p.chromium.launch(headless=True, slow_mo=300)
         context = await browser.new_context()
         page = await context.new_page()
         page.set_default_timeout(ACTION_TIMEOUT_MS)
