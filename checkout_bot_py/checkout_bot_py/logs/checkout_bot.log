@@ -1,0 +1,1541 @@
+2025-04-16 02:04:00,949 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:00,952 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:01,783 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:01,784 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:03,509 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:03,511 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:04,184 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:04,186 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:05,448 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:05,449 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:07,794 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:07,796 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:09,287 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:04:09,288 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:05:00,121 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:05:00,124 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:05:01,412 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:05:01,414 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 123, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 56, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:06:52,461 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:06:52,463 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:06:53,381 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:06:53,382 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:14,213 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:14,216 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:15,100 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:15,101 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:56,233 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:56,235 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:57,195 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:09:57,197 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:12:25,221 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:12:25,224 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:12:26,726 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:12:26,727 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 127, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 60, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:15:44,373 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:15:44,378 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:15:45,575 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:15:45,576 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:17:41,540 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:17:41,541 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:24:58,243 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:24:58,246 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:24:59,119 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:24:59,121 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:25:31,931 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:25:31,934 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:25:32,641 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Connection.run() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py:265> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:25:32,642 [ERROR] ✖ Falha geral: 
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 63, in process_request
+    async with async_playwright() as p:
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\async_api\_context_manager.py", line 46, in __aenter__
+    playwright = AsyncPlaywright(next(iter(done)).result())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1756, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 528, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-04-16 02:27:51,008 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-04-16 02:27:51,181 [ERROR] ✖ Falha geral: not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-04-16 02:27:54,018 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-04-16 02:27:54,186 [ERROR] ✖ Falha geral: not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+2025-04-16 02:28:17,587 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:28:17,754 [ERROR] ✖ Falha geral: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:28:24,349 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:28:24,522 [ERROR] ✖ Falha geral: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:30:26,503 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:30:26,660 [ERROR] ✖ Falha geral: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-16 02:31:43,403 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:31:43,567 [ERROR] ✖ Falha geral: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:31:45,122 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:31:45,294 [ERROR] ✖ Falha geral: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.split(':')
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:33:52,294 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.rsplit(':', 1)
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:33:52,458 [ERROR] ✖ Falha geral: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.rsplit(':', 1)
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    try:
+         
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:33:53,974 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.rsplit(':', 1)
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:33:54,133 [ERROR] ✖ Falha geral: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 71, in process_request
+    url, qty_raw = linha.rsplit(':', 1)
+    ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 128, in checkout_endpoint
+    try:
+         
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 73, in process_request
+    raise HTTPException(status_code=400, detail=f"Formato inválido em: '{linha}'. Esperado 'url:quantidade'")
+fastapi.exceptions.HTTPException: 400: Formato inválido em: 'https://naturalvalle.com.br/produto/quinua-em-graos/:2'. Esperado 'url:quantidade'
+2025-04-16 02:34:22,800 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=2.00)
+2025-04-16 02:34:31,984 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:34:32,181 [ERROR] ✖ Falha geral: 'Page' object has no attribute 'wait_for_response'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 129, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:35:51,654 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=2.00)
+2025-04-16 02:36:02,315 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:36:02,530 [ERROR] ✖ Falha geral: 'Page' object has no attribute 'wait_for_response'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 129, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:36:38,001 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 02:36:48,159 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:36:48,363 [ERROR] ✖ Falha geral: 'Page' object has no attribute 'wait_for_response'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 129, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:46:21,512 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 02:46:30,568 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:46:30,800 [ERROR] ✖ Falha geral: 'Page' object has no attribute 'wait_for_response'
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 129, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 83, in process_request
+    page.wait_for_response(lambda r: "wc-ajax" in r.url and r.status == 200),
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'wait_for_response'
+2025-04-16 02:51:40,124 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 02:51:52,583 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:51:53,372 [INFO] Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 02:51:58,634 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:51:59,794 [INFO] Indo para página de checkout
+2025-04-16 02:52:12,851 [INFO] ✔ Formulário de checkout preenchido
+2025-04-16 02:52:13,064 [INFO] ✔ Pedido concluído em 33681ms
+2025-04-16 02:52:31,823 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 02:52:41,262 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:52:42,430 [INFO] Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 02:52:47,532 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:52:48,122 [INFO] Indo para página de checkout
+2025-04-16 02:53:00,654 [INFO] ✔ Formulário de checkout preenchido
+2025-04-16 02:53:00,886 [INFO] ✔ Pedido concluído em 29827ms
+2025-04-16 02:53:20,943 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.50)
+2025-04-16 02:53:30,795 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:53:31,548 [INFO] Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=5.00)
+2025-04-16 02:53:50,005 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 81, in process_request
+    async with page.expect_response(lambda r: "wc-ajax" in r.url and r.status == 200):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event "response"
+2025-04-16 02:53:50,203 [ERROR] ✖ Falha geral: Timeout 15000ms exceeded while waiting for event "response"
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 126, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 81, in process_request
+    async with page.expect_response(lambda r: "wc-ajax" in r.url and r.status == 200):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event "response"
+2025-04-16 02:54:21,192 [INFO] Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.50)
+2025-04-16 02:54:29,333 [INFO] ✔ Adicionado ao carrinho
+2025-04-16 02:54:29,935 [INFO] Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=5.00)
+2025-04-16 02:54:47,996 [ERROR] Erro durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 81, in process_request
+    async with page.expect_response(lambda r: "wc-ajax" in r.url and r.status == 200):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event "response"
+2025-04-16 02:54:48,224 [ERROR] ✖ Falha geral: Timeout 15000ms exceeded while waiting for event "response"
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 126, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 81, in process_request
+    async with page.expect_response(lambda r: "wc-ajax" in r.url and r.status == 200):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 60, in __aexit__
+    await self._event.value
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_async_base.py", line 35, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.TimeoutError: Timeout 15000ms exceeded while waiting for event "response"
+2025-04-16 03:11:48,193 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:11:48,631 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.50)
+2025-04-16 03:11:53,635 [INFO] 🌐 Página carregada
+2025-04-16 03:11:57,008 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:11:57,804 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=5.00)
+2025-04-16 03:12:00,119 [INFO] 🌐 Página carregada
+2025-04-16 03:12:16,294 [WARNING] ⚠️ Falha ao adicionar produto: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ — Timeout 15000ms exceeded while waiting for event "response"
+2025-04-16 03:12:16,333 [WARNING] 🚫 Produto sem estoque: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:12:16,334 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:12:20,320 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:12:21,113 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:12:21,907 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:12:22,684 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:12:23,614 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:12:24,268 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:12:25,075 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:12:25,822 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:12:26,679 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:12:27,269 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:12:28,046 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:12:29,398 [INFO] 🗺️ Estado selecionado: SP
+2025-04-16 03:12:29,399 [INFO] ✅ Checkout preenchido com sucesso!
+2025-04-16 03:12:29,594 [INFO] 🔒 Navegador fechado
+2025-04-16 03:12:29,605 [INFO] ✔ Pedido concluído em 41773ms
+2025-04-16 03:31:50,711 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:31:51,164 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:32:00,721 [INFO] 🌐 Página carregada
+2025-04-16 03:32:04,193 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:32:04,871 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:32:07,111 [INFO] 🌐 Página carregada
+2025-04-16 03:32:09,911 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:32:10,652 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:32:13,699 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:32:14,600 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:32:15,409 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:32:16,235 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:32:16,767 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:32:17,638 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:32:18,604 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:32:19,384 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:32:20,176 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:32:20,967 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:32:21,839 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:32:25,561 [INFO] 📍 Estado 'São Paulo (SP)' selecionado com dupla verificação
+2025-04-16 03:32:25,936 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:32:26,294 [INFO] 🚀 Botão de finalizar pedido clicado com sucesso
+2025-04-16 03:32:26,462 [INFO] 🔒 Navegador fechado
+2025-04-16 03:32:26,475 [INFO] ✔ Pedido concluído em 36093ms
+2025-04-16 03:40:43,886 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:40:44,297 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:40:51,365 [INFO] 🌐 Página carregada
+2025-04-16 03:40:54,481 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:40:55,198 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:40:57,345 [INFO] 🌐 Página carregada
+2025-04-16 03:41:00,493 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:41:01,491 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:41:04,579 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:41:05,296 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:41:06,186 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:41:07,026 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:41:07,762 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:41:08,507 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:41:09,316 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:41:09,891 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:41:10,603 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:41:11,290 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:41:12,275 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:41:16,068 [INFO] 📍 Estado 'São Paulo' selecionado com dupla verificação
+2025-04-16 03:41:16,503 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:41:16,893 [INFO] 🚀 Botão de finalizar pedido clicado com sucesso
+2025-04-16 03:41:17,121 [INFO] 🔒 Navegador fechado
+2025-04-16 03:41:17,133 [INFO] ✔ Pedido concluído em 33558ms
+2025-04-16 03:44:36,899 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:44:37,316 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:44:43,191 [INFO] 🌐 Página carregada
+2025-04-16 03:44:46,298 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:44:47,484 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:44:49,599 [INFO] 🌐 Página carregada
+2025-04-16 03:44:53,099 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:44:54,244 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:44:57,469 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:44:58,309 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:44:59,055 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:44:59,973 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:45:00,812 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:45:01,541 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:45:02,289 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:45:02,939 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:45:03,747 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:45:04,414 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:45:05,345 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:45:09,224 [INFO] 📍 Estado 'São Paulo' selecionado com dupla verificação
+2025-04-16 03:45:09,703 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:45:10,092 [INFO] 🚀 Botão de finalizar pedido clicado com sucesso
+2025-04-16 03:45:10,278 [INFO] 🔒 Navegador fechado
+2025-04-16 03:45:10,289 [INFO] ✔ Pedido concluído em 33702ms
+2025-04-16 03:45:38,006 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:45:38,409 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:45:44,165 [INFO] 🌐 Página carregada
+2025-04-16 03:45:47,533 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:45:48,248 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:45:50,334 [INFO] 🌐 Página carregada
+2025-04-16 03:45:53,744 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:45:54,438 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:45:57,255 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:45:57,974 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:45:58,565 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:45:59,280 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:46:00,162 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:46:00,754 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:46:01,343 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:46:02,089 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:46:02,957 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:46:03,900 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:46:04,845 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:46:08,593 [INFO] 📍 Estado 'São Paulo' selecionado com dupla verificação
+2025-04-16 03:46:09,078 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:46:09,100 [ERROR] ❌ Erro ao clicar no botão 'Fazer Pedido' ou redirecionar: 'AsyncEventContextManager' object does not support the context manager protocol
+2025-04-16 03:46:09,101 [ERROR] ❌ Erro geral durante o processo
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 164, in process_request
+    with page.expect_navigation(timeout=15000):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'AsyncEventContextManager' object does not support the context manager protocol
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 174, in process_request
+    raise HTTPException(status_code=500, detail="Falha ao finalizar o pedido ou redirecionar.")
+fastapi.exceptions.HTTPException: 500: Falha ao finalizar o pedido ou redirecionar.
+2025-04-16 03:46:14,182 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Frame.expect_navigation.<locals>.continuation() done, defined at C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_frame.py:207> exception=Error("Target page, context or browser has been closed\n=========================== logs ===========================\nwaiting for navigation until 'load'\n============================================================")>
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\Lib\site-packages\playwright\_impl\_frame.py", line 208, in continuation
+    event = await waiter.result()
+            ^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._errors.Error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation until 'load'
+============================================================
+2025-04-16 03:46:14,355 [INFO] 🔒 Navegador fechado
+2025-04-16 03:46:14,372 [ERROR] ✖ Falha geral: 500: Falha ao finalizar o pedido ou redirecionar.
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 164, in process_request
+    with page.expect_navigation(timeout=15000):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'AsyncEventContextManager' object does not support the context manager protocol
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 192, in checkout_endpoint
+    result = await process_request(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\victo\OneDrive\Imagens\Criar pedido natural\checkout_bot_py\app.py", line 174, in process_request
+    raise HTTPException(status_code=500, detail="Falha ao finalizar o pedido ou redirecionar.")
+fastapi.exceptions.HTTPException: 500: Falha ao finalizar o pedido ou redirecionar.
+2025-04-16 03:51:14,872 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:51:15,298 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:51:20,939 [INFO] 🌐 Página carregada
+2025-04-16 03:51:23,888 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:51:24,812 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:51:27,884 [INFO] 🌐 Página carregada
+2025-04-16 03:51:30,786 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:51:31,523 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:51:34,620 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:51:35,151 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:51:35,805 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:51:36,581 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:51:37,518 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:51:38,467 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:51:39,248 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:51:39,792 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:51:40,556 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:51:41,381 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:51:42,225 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:51:45,947 [INFO] 📍 Estado 'São Paulo' selecionado com dupla verificação
+2025-04-16 03:51:46,321 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:51:46,694 [INFO] 🚀 Botão de finalizar pedido clicado
+2025-04-16 03:51:54,743 [INFO] 🔁 Página final após envio: https://naturalvalle.com.br/checkout/
+2025-04-16 03:52:04,962 [INFO] 🔒 Navegador fechado
+2025-04-16 03:52:04,973 [INFO] ✔ Pedido concluído em 50417ms
+2025-04-16 03:52:38,557 [INFO] 🟢 Iniciando processo para instância: instancia-padrao
+2025-04-16 03:52:38,955 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/quinua-em-graos/ (qty=0.05)
+2025-04-16 03:52:44,152 [INFO] 🌐 Página carregada
+2025-04-16 03:52:47,141 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/quinua-em-graos/
+2025-04-16 03:52:48,108 [INFO] ➡️ Abrindo https://naturalvalle.com.br/produto/tamaras-secas-jumbo/ (qty=0.05)
+2025-04-16 03:52:52,517 [INFO] 🌐 Página carregada
+2025-04-16 03:52:55,699 [INFO] ✅ Produto adicionado ao carrinho: https://naturalvalle.com.br/produto/tamaras-secas-jumbo/
+2025-04-16 03:52:56,758 [INFO] 🛒 Indo para o checkout: https://naturalvalle.com.br/checkout/
+2025-04-16 03:52:59,734 [INFO] ✍️ Preenchido: billing_email
+2025-04-16 03:53:00,451 [INFO] ✍️ Preenchido: billing_first_name
+2025-04-16 03:53:01,119 [INFO] ✍️ Preenchido: billing_last_name
+2025-04-16 03:53:01,943 [INFO] ✍️ Preenchido: billing_cpf
+2025-04-16 03:53:02,626 [INFO] ✍️ Preenchido: billing_postcode
+2025-04-16 03:53:03,558 [INFO] ✍️ Preenchido: billing_address_1
+2025-04-16 03:53:04,412 [INFO] ✍️ Preenchido: billing_number
+2025-04-16 03:53:05,220 [INFO] ✍️ Preenchido: billing_address_2
+2025-04-16 03:53:05,935 [INFO] ✍️ Preenchido: billing_neighborhood
+2025-04-16 03:53:06,746 [INFO] ✍️ Preenchido: billing_city
+2025-04-16 03:53:07,626 [INFO] ✍️ Preenchido: billing_phone
+2025-04-16 03:53:11,570 [INFO] 📍 Estado 'São Paulo' selecionado com dupla verificação
+2025-04-16 03:53:12,068 [INFO] ✅ PIX selecionado manualmente
+2025-04-16 03:53:12,442 [INFO] 🚀 Botão de finalizar pedido clicado
+2025-04-16 03:53:20,647 [INFO] 🔁 Página final após envio: https://naturalvalle.com.br/step/store-checkout-thank-you-02/?wcf-key=wc_order_xiQ8CDHBJHEdL&wcf-order=4612
+2025-04-16 03:53:30,812 [INFO] 🔒 Navegador fechado
+2025-04-16 03:53:30,823 [INFO] ✔ Pedido concluído em 52578ms
